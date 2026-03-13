@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <Button
+        android:id="@+id/nrmToastBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Default Toast" />
+
+    <Button
+        android:id="@+id/ctmToastBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Custom Toast" />
+
+    <Button
+        android:id="@+id/nrnSnackBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Default Snackbar" />
+
+    <Button
+        android:id="@+id/ctmSnackBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Custom Snackbar" />
+
+    <TextView
+        android:id="@+id/snackbarTest"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Snackbar Info"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
